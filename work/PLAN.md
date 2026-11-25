@@ -5,8 +5,8 @@
 - [x] Phase 2: Research a usable invitation reference, view it at full resolution, sample its palette, and write STYLE_DNA.md.
 - [x] Phase 3: Map reference design to all fixed features; document deliberate interpretations.
 - [x] Phase 4: Build complete, standalone public/index.html.
-- [ ] Phase 5: Run static, browser and visual checks; patch observed failures and recheck.
-- [ ] Phase 6: Complete CHECKLIST.md and MATCH_REPORT.md.
+- [x] Phase 5: Run static, browser and visual checks; patch observed failures and recheck.
+- [x] Phase 6: Complete CHECKLIST.md and MATCH_REPORT.md.
 - [ ] Phase 7: Deliver local file, preview command, verification summary and replacement guidance.
 
 ## Section and feature map
