@@ -7,7 +7,7 @@
 - [x] Phase 4: Build complete, standalone public/index.html.
 - [x] Phase 5: Run static, browser and visual checks; patch observed failures and recheck.
 - [x] Phase 6: Complete CHECKLIST.md and MATCH_REPORT.md.
-- [ ] Phase 7: Deliver local file, preview command, verification summary and replacement guidance.
+- [x] Phase 7: Deliver local file, preview command, verification summary and replacement guidance.
 
 ## Section and feature map
 

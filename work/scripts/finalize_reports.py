@@ -24,7 +24,7 @@ browser=json.loads((ROOT/'work/BROWSER_RESULTS.json').read_text())
 static=json.loads((ROOT/'work/STATIC_RESULTS.json').read_text())
 assert browser['status']==static['status']=='PASS'
 p=ROOT/'work/MATCH_REPORT.md'
-text=p.read_text().split('## Verification',1)[0]
+text=p.read_text().split('## Visual review',1)[0].split('## Verification',1)[0]
 text+='''## Visual review: ten largest reference differences and their resolution
 
 Reviewed every section at 390px and 1440px; section screenshots are in work/screenshots/ and overview sheets in work/sheets/.
