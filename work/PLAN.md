@@ -4,7 +4,7 @@
 - [x] Phase 1: No original photos exist; the user-approved illustration substitution applies. Keep originals/ untouched. Provide a metadata-stripping photo preparation script for future real photos. No fabricated photo files or OG photograph.
 - [x] Phase 2: Research a usable invitation reference, view it at full resolution, sample its palette, and write STYLE_DNA.md.
 - [x] Phase 3: Map reference design to all fixed features; document deliberate interpretations.
-- [ ] Phase 4: Build complete, standalone public/index.html.
+- [x] Phase 4: Build complete, standalone public/index.html.
 - [ ] Phase 5: Run static, browser and visual checks; patch observed failures and recheck.
 - [ ] Phase 6: Complete CHECKLIST.md and MATCH_REPORT.md.
 - [ ] Phase 7: Deliver local file, preview command, verification summary and replacement guidance.
