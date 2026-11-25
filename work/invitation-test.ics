@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wedding Invitation//Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20270213T103000Z-0@wedding-invitation.local
+DTSTAMP:20261125T152423Z
+DTSTART:20270213T103000Z
+DTEND:20270213T133000Z
+SUMMARY:Mehndi · Meera & Arjun
+LOCATION:Rambagh Palace\, Bhawani Singh Road\, Jaipur\, Rajasthan 302 005
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+
+ Jaipur
+END:VEVENT
+BEGIN:VEVENT
+UID:20270213T140000Z-1@wedding-invitation.local
+DTSTAMP:20261125T152423Z
+DTSTART:20270213T140000Z
+DTEND:20270213T170000Z
+SUMMARY:Sangeet · Meera & Arjun
+LOCATION:Rambagh Palace\, Bhawani Singh Road\, Jaipur\, Rajasthan 302 005
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+
+ Jaipur
+END:VEVENT
+BEGIN:VEVENT
+UID:20270214T043000Z-2@wedding-invitation.local
+DTSTAMP:20261125T152423Z
+DTSTART:20270214T043000Z
+DTEND:20270214T073000Z
+SUMMARY:Haldi · Meera & Arjun
+LOCATION:Rambagh Palace\, Bhawani Singh Road\, Jaipur\, Rajasthan 302 005
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+
+ Jaipur
+END:VEVENT
+BEGIN:VEVENT
+UID:20270214T130000Z-3@wedding-invitation.local
+DTSTAMP:20261125T152423Z
+DTSTART:20270214T130000Z
+DTEND:20270214T160000Z
+SUMMARY:Wedding · Meera & Arjun
+LOCATION:Rambagh Palace\, Bhawani Singh Road\, Jaipur\, Rajasthan 302 005
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+
+ Jaipur
+END:VEVENT
+END:VCALENDAR

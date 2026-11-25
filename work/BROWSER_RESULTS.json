@@ -1,0 +1,283 @@
+{
+  "sizes": [
+    {
+      "size": {
+        "width": 360,
+        "height": 800
+      },
+      "metrics": {
+        "viewport": 360,
+        "scrollWidth": 345,
+        "small": [],
+        "tiny": [],
+        "planeCssWidth": 56,
+        "planeRect": {
+          "left": 13,
+          "right": 57
+        },
+        "overlap": false,
+        "effectPointers": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "petals": 10,
+        "sparkles": 14
+      }
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "viewport": 390,
+        "scrollWidth": 375,
+        "small": [],
+        "tiny": [],
+        "planeCssWidth": 56,
+        "planeRect": {
+          "left": 11.10236644744873,
+          "right": 59.09767436981201
+        },
+        "overlap": false,
+        "effectPointers": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "petals": 10,
+        "sparkles": 14
+      }
+    },
+    {
+      "size": {
+        "width": 430,
+        "height": 932
+      },
+      "metrics": {
+        "viewport": 430,
+        "scrollWidth": 415,
+        "small": [],
+        "tiny": [],
+        "planeCssWidth": 56,
+        "planeRect": {
+          "left": 16.469684600830078,
+          "right": 60.930362701416016
+        },
+        "overlap": false,
+        "effectPointers": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "petals": 10,
+        "sparkles": 14
+      }
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "metrics": {
+        "viewport": 768,
+        "scrollWidth": 753,
+        "small": [],
+        "tiny": [],
+        "planeCssWidth": 68,
+        "planeRect": {
+          "left": 42.64862060546875,
+          "right": 95.5914306640625
+        },
+        "overlap": false,
+        "effectPointers": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "petals": 18,
+        "sparkles": 28
+      }
+    },
+    {
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "metrics": {
+        "viewport": 1440,
+        "scrollWidth": 1425,
+        "small": [],
+        "tiny": [],
+        "planeCssWidth": 68,
+        "planeRect": {
+          "left": 103.51406860351562,
+          "right": 155.68600463867188
+        },
+        "overlap": false,
+        "effectPointers": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "petals": 18,
+        "sparkles": 28
+      }
+    }
+  ],
+  "tests": [
+    {
+      "name": "Opening locks scrolling, makes page inert and focuses the real seal button",
+      "status": "PASS"
+    },
+    {
+      "name": "Click reveal, scroll unlock, hero focus and return to top",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout, 44px controls, 14px fonts, no horizontal overflow, particle counts and plane clearance at 360x800",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout, 44px controls, 14px fonts, no horizontal overflow, particle counts and plane clearance at 390x844",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout, 44px controls, 14px fonts, no horizontal overflow, particle counts and plane clearance at 430x932",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout, 44px controls, 14px fonts, no horizontal overflow, particle counts and plane clearance at 768x1024",
+      "status": "PASS"
+    },
+    {
+      "name": "Layout, 44px controls, 14px fonts, no horizontal overflow, particle counts and plane clearance at 1440x900",
+      "status": "PASS"
+    },
+    {
+      "name": "Four events in source order; six exact main/inherited Maps links with safe new-tab attributes",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual ICS download: all four events, fixed-offset UTC values, three-hour ends, escaping, CRLF and 75-octet folding",
+      "status": "PASS"
+    },
+    {
+      "name": "Lightbox next/previous, arrow wrap, touch swipe, counter, Escape, focus trap/return and scroll lock",
+      "status": "PASS"
+    },
+    {
+      "name": "Opening works with Enter",
+      "status": "PASS"
+    },
+    {
+      "name": "Opening works with Space",
+      "status": "PASS"
+    },
+    {
+      "name": "Mocked countdown, tick, hidden pause/resync and Just Married in America/New_York",
+      "status": "PASS"
+    },
+    {
+      "name": "Mocked countdown, tick, hidden pause/resync and Just Married in Asia/Kolkata",
+      "status": "PASS"
+    },
+    {
+      "name": "Reduced motion skips opening, shows all sections, disables motion and retains static plane/lantern feedback",
+      "status": "PASS"
+    },
+    {
+      "name": "iOS in-app calendar data-URL fallback contains all four events",
+      "status": "PASS"
+    },
+    {
+      "name": "Lantern button creates exactly three noninteractive lanterns and removes them after flight",
+      "status": "PASS"
+    },
+    {
+      "name": "Whole-page scroll under 4x CPU throttle completed without script errors or overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "No console errors or failed non-font requests",
+      "status": "PASS"
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "skipped": [
+    "Lighthouse is not installed; no Lighthouse scores claimed.",
+    "Real-phone Safari/in-app calendar opening, WhatsApp and physical face crops await real photos and device review."
+  ],
+  "calendar": {
+    "events": 4,
+    "starts": [
+      "20270213T103000Z",
+      "20270213T140000Z",
+      "20270214T043000Z",
+      "20270214T130000Z"
+    ],
+    "ends": [
+      "20270213T133000Z",
+      "20270213T170000Z",
+      "20270214T073000Z",
+      "20270214T160000Z"
+    ],
+    "crlf": true,
+    "folded75Octets": true
+  },
+  "clocks": [
+    {
+      "zone": "America/New_York",
+      "initial": [
+        "01",
+        "00",
+        "00",
+        "00"
+      ],
+      "resumed": [
+        "00",
+        "23",
+        "59",
+        "54"
+      ]
+    },
+    {
+      "zone": "Asia/Kolkata",
+      "initial": [
+        "01",
+        "00",
+        "00",
+        "00"
+      ],
+      "resumed": [
+        "00",
+        "23",
+        "59",
+        "54"
+      ]
+    }
+  ],
+  "cpu4x": {
+    "frames": 143,
+    "medianMs": 11.5,
+    "p95Ms": 26.09999999999991
+  },
+  "status": "PASS"
+}

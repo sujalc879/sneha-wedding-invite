@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "All populated DETAILS.md data cells appear verbatim in index.html",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "Complete exact DETAILS.md snapshot in first HTML comment",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "No personal text from the reference in public/",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "No prohibited unfinished-content strings",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "No external JavaScript or raw HTML insertion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "STYLE_DNA.md is at most 25 lines",
+      "status": "PASS",
+      "detail": "25"
+    },
+    {
+      "name": "External resources/links limited to Google Fonts and the exact sample Maps link",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "name": "Only Google Fonts stylesheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Unique IDs and all literal SVG references resolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Noindex, fixed-offset countdown, title and Open Graph title/description present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Unknown Site URL has no empty or fabricated og:url / og:image",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Only permitted public files",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Size budgets: HTML under 250KB and public under 2.5MB",
+      "status": "PASS",
+      "detail": "78746 bytes total"
+    },
+    {
+      "name": "All literal hex colours use the sampled palette",
+      "status": "PASS",
+      "detail": "set()"
+    },
+    {
+      "name": "Main weekday matches the stated day",
+      "status": "PASS",
+      "detail": "Sunday"
+    },
+    {
+      "name": "Mehndi computed weekday matches Saturday",
+      "status": "PASS",
+      "detail": "Saturday"
+    },
+    {
+      "name": "Sangeet computed weekday matches Saturday",
+      "status": "PASS",
+      "detail": "Saturday"
+    },
+    {
+      "name": "Haldi computed weekday matches Sunday",
+      "status": "PASS",
+      "detail": "Sunday"
+    },
+    {
+      "name": "Wedding computed weekday matches Sunday",
+      "status": "PASS",
+      "detail": "Sunday"
+    },
+    {
+      "name": "Wedding function agrees with main date and time",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "All populated source data cells also appear verbatim in CHECKLIST.md",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "totalPublicBytes": 78746,
+  "deferred": [
+    "Real photo dimensions/EXIF and face crops: user-approved SVG demo has no photos."
+  ]
+}

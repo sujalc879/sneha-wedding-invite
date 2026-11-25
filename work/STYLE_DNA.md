@@ -1,5 +1,4 @@
-# STYLE DNA
-Mood: Romantic, botanical, regal, intimate, warm.
+# STYLE DNA — Mood: Romantic, botanical, regal, intimate, warm.
 Reference: reference/researched-invitation.webp; researched printed invitation, viewed at full 480 × 640 resolution.
 Palette sampled with Pillow quantized crop histograms: #f2e7db page/paper; #eee3d3 inset paper; #ead6b8 pale gold; #b79d66 gold/accent/borders; #691617 names/buttons/dark panels; #6e2221 body/muted burgundy; #665010 dark foliage; #9e8950 light foliage; #d38b6a rose/fictional portrait midtone; #f4dccf blush/highlight.
 Typography: Cormorant Garamond 400/500/600, italic names 88–136px, headings 42–64px; Georgia/Times fallbacks. DM Sans 400/500, body 16px, labels 14px, 0–1.8px tracking; Arial/sans-serif fallbacks. Capitals are reserved for formal invitation labels and navigation.
