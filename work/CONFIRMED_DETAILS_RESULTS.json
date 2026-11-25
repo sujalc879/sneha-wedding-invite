@@ -1,0 +1,24 @@
+{
+  "static": "PASS: exact populated source values, exact source snapshot, no old names, no forbidden reference strings, JavaScript syntax",
+  "browser": "PASS",
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "assertions": [
+    "confirmed names and date",
+    "pending countdown",
+    "disabled calendar export",
+    "Wedding date/day and no old time",
+    "no horizontal overflow",
+    "no browser script errors"
+  ],
+  "flags": [
+    "wedding time pending",
+    "other event/venue details remain demo; February event dates follow January wedding"
+  ],
+  "fullSuiteRerun": false
+}

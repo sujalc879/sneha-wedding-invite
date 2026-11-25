@@ -1,5 +1,10 @@
 # Match report
 
+## Latest details correction
+
+Confirmed names sneha and sanghpal and wedding date 1 January 2027 reapplied after the source returned to the old demo values. The Wedding entry matches the confirmed date; Friday computed with Python. Wedding time is pending, so countdown shows a pending status and calendar export is disabled with an explanation. Other event dates and venue remain demo content; February demo events now follow the January wedding and need replacement. Existing opening artwork preserved. Earlier full-suite results below refer to the demo version. Focused syntax/source checks and browser tests at five widths are run for this correction; full countdown/ICS tests await the real time. No publication or Git changes.
+
+
 ## Research
 
 - Visual reference: [InviteFlare printed botanical arch invitation](https://www.inviteflare.com/invitations/wedding/tree-indian-wedding-invitation-template). Saved in reference/ for study only, never deployed. No personal wording or artwork is reused.

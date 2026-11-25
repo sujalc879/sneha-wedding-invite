@@ -4,16 +4,16 @@ All data below belongs to a user-approved temporary fictional demo. Source: DETA
 
 | Item | As typed in DETAILS.md | As used in index.html | Match | Flag |
 |---|---|---|---|---|
-| Bride | Meera | Meera | YES | Temporary fictional demo; replace before sharing. |
-| Groom | Arjun | Arjun | YES | Temporary fictional demo; replace before sharing. |
+| Bride | sneha | sneha | YES | Confirmed, lower case preserved. |
+| Groom | sanghpal | sanghpal | YES | Confirmed, lower case preserved. |
 | Name order | Bride & Groom | Bride & Groom | YES |  |
-| Initials | M&A | M&A | YES |  |
+| Initials | s&s | s&s | DERIVED | Derived from names. |
 | Blessing | Shree Ganeshaya Namah | Shree Ganeshaya Namah | YES |  |
 | Hero subtitle | Wedding Invitation | Wedding Invitation | YES |  |
 | Hero introduction | Together with our families | Together with our families | YES |  |
-| Main date | 14 February 2027 | 14 February 2027 | YES | Temporary fictional demo; replace before sharing. |
-| Main day | Sunday | Sunday | YES |  |
-| Main time | 6:30 PM | 6:30 PM | YES | Temporary fictional demo; replace before sharing. |
+| Main date | 1 January 2027 | 1 January 2027 | YES | Confirmed. |
+| Main day | Friday | Friday | YES | Computed with Python. |
+| Main time | EMPTY | Omitted | PENDING | Awaiting user. |
 | Time zone offset | +05:30 | +05:30 | YES |  |
 | Venue | Rambagh Palace | Rambagh Palace | YES | Temporary fictional demo; replace before sharing. |
 | Address | Bhawani Singh Road, Jaipur, Rajasthan 302 005 | Bhawani Singh Road, Jaipur, Rajasthan 302 005 | YES |  |
@@ -31,9 +31,9 @@ All data below belongs to a user-approved temporary fictional demo. Source: DETA
 | Groom outfit | Ivory sherwani with a gold stole | Ivory sherwani with a gold stole | YES | Fictional SVG portrait; real likeness awaits supplied photos. |
 | Demo label | Fictional invitation | Fictional invitation | YES |  |
 | Demo notice | Fictional wedding details. Original illustrations stand in for real photos. | Fictional wedding details. Original illustrations stand in for real photos. | YES |  |
-| Countdown timestamp | 14 February 2027; 6:30 PM; +05:30 | 2027-02-14T18:30:00+05:30 | YES | Technical value only; display remains exact. |
+| Countdown timestamp | Wedding time pending | EMPTY | PENDING | Countdown awaits real time. |
 | RSVP wa.me href | EMPTY | — omitted — | YES | No personal telephone number fabricated. |
-| Main computed weekday | Sunday | Sunday | YES | Computed with Python; never rewritten. |
+| Main computed weekday | Friday | Friday | YES | Computed with Python. |
 | Function 1 Name | Mehndi | Mehndi | YES |  |
 | Function 1 Date | 13 February 2027 | 13 February 2027 | YES |  |
 | Function 1 Day | Saturday | Saturday | YES |  |
@@ -59,13 +59,15 @@ All data below belongs to a user-approved temporary fictional demo. Source: DETA
 | Function 3 Maps link | EMPTY | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | YES | Inherited main value. |
 | Function 3 computed weekday | Sunday | Sunday | YES | Computed with Python; never rewritten. |
 | Function 4 Name | Wedding | Wedding | YES |  |
-| Function 4 Date | 14 February 2027 | 14 February 2027 | YES |  |
-| Function 4 Day | Sunday | Sunday | YES |  |
-| Function 4 Time | 6:30 PM | 6:30 PM | YES |  |
+| Function 4 Date | 1 January 2027 | 1 January 2027 | YES | Confirmed wedding date. |
+| Function 4 Day | Friday | Friday | YES | Computed with Python. |
+| Function 4 Time | EMPTY | Omitted | PENDING | Awaiting user. |
 | Function 4 Venue | EMPTY | Rambagh Palace | YES | Inherited main value. |
 | Function 4 Dress code | EMPTY | Indian festive | YES | Inherited main value. |
 | Function 4 Maps link | EMPTY | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | YES | Inherited main value. |
-| Function 4 computed weekday | Sunday | Sunday | YES | Computed with Python; never rewritten. |
+| Function 4 computed weekday | Friday | Friday | YES | Computed with Python. |
 | Calendar end-time rule | Start only supplied | Start + 3 hours | DERIVED | Hidden constant CONFIG.calendarDurationHours = 3; end times never displayed. |
 | Real photos | None supplied | Three original inline SVG scenes | APPROVED | User explicitly approved temporary illustrations. Photo EXIF, likeness and crop checks are deferred. |
 | OG photograph | None supplied | Omitted | APPROVED | No real photo or published URL yet. |
+
+Latest update: names and wedding date confirmed; all remaining data is temporary demo content. February demo events fall after the confirmed wedding and require replacement. Wedding time is empty; calendar export waits for the real time.

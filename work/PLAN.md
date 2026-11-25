@@ -46,3 +46,8 @@ Sound is optional in the user request. Keep the opening silent under the existin
 - [x] Add an explicit Open invitation button sharing the seal's reveal, and update the focus trap for three controls.
 - [x] Verify the revised opening on all required screen sizes and a short phone; touch, keyboard, Close/Escape and reduced motion.
 - [x] Update reports and hand off the local file.
+
+## Reapply confirmed details
+
+- [x] Reapply sneha & sanghpal — 1 January 2027 across source, metadata, monograms and visible content; keep time pending and preserve opening design.
+- [x] Update data checklist and report; verify relevant states at five widths.

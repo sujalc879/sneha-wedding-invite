@@ -6,16 +6,16 @@ Approved in chat on 25 November 2026: temporary fictional details and original S
 
 | Item | Value |
 |---|---|
-| Bride | Meera |
-| Groom | Arjun |
+| Bride | sneha |
+| Groom | sanghpal |
 | Name order | Bride & Groom |
-| Initials | M&A |
+| Initials | s&s |
 | Blessing | Shree Ganeshaya Namah |
 | Hero subtitle | Wedding Invitation |
 | Hero introduction | Together with our families |
-| Main date | 14 February 2027 |
-| Main day | Sunday |
-| Main time | 6:30 PM |
+| Main date | 1 January 2027 |
+| Main day | Friday |
+| Main time | |
 | Time zone offset | +05:30 |
 | Venue | Rambagh Palace |
 | Address | Bhawani Singh Road, Jaipur, Rajasthan 302 005 |
@@ -41,7 +41,7 @@ Approved in chat on 25 November 2026: temporary fictional details and original S
 | Mehndi | 13 February 2027 | Saturday | 4:00 PM | | Festive greens | |
 | Sangeet | 13 February 2027 | Saturday | 7:30 PM | | Evening elegance | |
 | Haldi | 14 February 2027 | Sunday | 10:00 AM | | Shades of sunshine | |
-| Wedding | 14 February 2027 | Sunday | 6:30 PM | | | |
+| Wedding | 1 January 2027 | Friday | | | | |
 
 ## Photos
 
@@ -50,3 +50,7 @@ No real photos supplied. The user approved original inline SVG illustrations tem
 ## Research provenance
 
 The names, dates, functions and personal lines above are fictional demonstration content, not facts about real people. The venue is a real public place used only to demonstrate directions; no booking or affiliation is claimed. Its address was checked against the official Taj Hotels fact sheet. Research links are recorded in work/MATCH_REPORT.md.
+
+## Confirmed details
+
+Confirmed by the user: sneha & sanghpal — 1 January 2027. Preserve lower case. Wedding time is pending. Initials s&s are derived. Friday was computed with Python. Other dates, venue and personal lines remain demo content awaiting real details; February demo events fall after the confirmed wedding date.
