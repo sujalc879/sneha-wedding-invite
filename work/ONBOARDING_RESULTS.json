@@ -1,0 +1,431 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Changes are confined to the opening CSS, HTML and reveal JavaScript; all wedding data and other features are byte-for-byte unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Opening remains silent under the project audio rule",
+      "status": "PASS"
+    },
+    {
+      "name": "360x800: complete opening visible, 44px buttons, 14px fonts, locked scroll, trapped focus and successful reveal/close into unobstructed hero",
+      "status": "PASS"
+    },
+    {
+      "name": "390x844: complete opening visible, 44px buttons, 14px fonts, locked scroll, trapped focus and successful reveal/close into unobstructed hero",
+      "status": "PASS"
+    },
+    {
+      "name": "430x932: complete opening visible, 44px buttons, 14px fonts, locked scroll, trapped focus and successful reveal/close into unobstructed hero",
+      "status": "PASS"
+    },
+    {
+      "name": "768x1024: complete opening visible, 44px buttons, 14px fonts, locked scroll, trapped focus and successful reveal/close into unobstructed hero",
+      "status": "PASS"
+    },
+    {
+      "name": "1440x900: complete opening visible, 44px buttons, 14px fonts, locked scroll, trapped focus and successful reveal/close into unobstructed hero",
+      "status": "PASS"
+    },
+    {
+      "name": "Mouse tilt and seal/paper hover feedback respond, then reset on pointer leave",
+      "status": "PASS"
+    },
+    {
+      "name": "Close remains usable during the reveal; cancelled opening timeout never relocks or moves focus again",
+      "status": "PASS"
+    },
+    {
+      "name": "Real touch-context tap opens the envelope; touch pointer movement does not trigger desktop tilt",
+      "status": "PASS"
+    },
+    {
+      "name": "Reduced motion bypasses onboarding, unlocks content immediately and leaves no running animations",
+      "status": "PASS"
+    },
+    {
+      "name": "Additional short-phone check at 360x640 keeps the date, venue and dismissal accessible",
+      "status": "PASS"
+    },
+    {
+      "name": "No JavaScript errors or failed non-font requests",
+      "status": "PASS"
+    }
+  ],
+  "screens": [
+    {
+      "size": {
+        "width": 360,
+        "height": 800
+      },
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 345,
+        "rects": [
+          {
+            "selector": ".opening-edition",
+            "left": 27,
+            "right": 178.296875,
+            "top": 36.453125,
+            "bottom": 59.546875
+          },
+          {
+            "selector": ".opening-kicker",
+            "left": 70.734375,
+            "right": 274.265625,
+            "top": 187.25,
+            "bottom": 210.34375
+          },
+          {
+            "selector": ".opening-title",
+            "left": 22.5,
+            "right": 322.5,
+            "top": 223.34375,
+            "bottom": 302.875
+          },
+          {
+            "selector": ".envelope-stage",
+            "left": 20.234050750732422,
+            "right": 324.7659721374512,
+            "top": 333.2640380859375,
+            "bottom": 543.4859619140625
+          },
+          {
+            "selector": ".opening-hint",
+            "left": 60,
+            "right": 285,
+            "top": 572.875,
+            "bottom": 617.65625
+          },
+          {
+            "selector": ".opening-meta",
+            "left": 42.015625,
+            "right": 302.984375,
+            "top": 641.65625,
+            "bottom": 664.75
+          },
+          {
+            "selector": "#close-opening",
+            "left": 270,
+            "right": 318,
+            "top": 24,
+            "bottom": 72
+          },
+          {
+            "selector": "#open-invitation",
+            "left": 119.47551727294922,
+            "right": 225.52447509765625,
+            "top": 385.35052490234375,
+            "bottom": 491.39947509765625
+          }
+        ],
+        "small": [],
+        "tiny": [],
+        "titleClear": true,
+        "envelopeClear": true
+      },
+      "path": "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/onboarding-360.jpg"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 375,
+        "rects": [
+          {
+            "selector": ".opening-edition",
+            "left": 27,
+            "right": 178.296875,
+            "top": 36.453125,
+            "bottom": 59.546875
+          },
+          {
+            "selector": ".opening-kicker",
+            "left": 85.734375,
+            "right": 289.265625,
+            "top": 209.25,
+            "bottom": 232.34375
+          },
+          {
+            "selector": ".opening-title",
+            "left": 37.5,
+            "right": 337.5,
+            "top": 245.34375,
+            "bottom": 324.875
+          },
+          {
+            "selector": ".envelope-stage",
+            "left": 20.23633575439453,
+            "right": 354.76367950439453,
+            "top": 355.00225830078125,
+            "bottom": 565.747802734375
+          },
+          {
+            "selector": ".opening-hint",
+            "left": 75,
+            "right": 300,
+            "top": 594.875,
+            "bottom": 639.65625
+          },
+          {
+            "selector": ".opening-meta",
+            "left": 57.015625,
+            "right": 317.984375,
+            "top": 663.65625,
+            "bottom": 686.75
+          },
+          {
+            "selector": "#close-opening",
+            "left": 300,
+            "right": 348,
+            "top": 24,
+            "bottom": 72
+          },
+          {
+            "selector": "#open-invitation",
+            "left": 134.47552490234375,
+            "right": 240.52447509765625,
+            "top": 407.35052490234375,
+            "bottom": 513.3994750976562
+          }
+        ],
+        "small": [],
+        "tiny": [],
+        "titleClear": true,
+        "envelopeClear": true
+      },
+      "path": "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/onboarding-390.jpg"
+    },
+    {
+      "size": {
+        "width": 430,
+        "height": 932
+      },
+      "metrics": {
+        "width": 430,
+        "height": 932,
+        "scrollWidth": 415,
+        "rects": [
+          {
+            "selector": ".opening-edition",
+            "left": 27,
+            "right": 178.296875,
+            "top": 36.453125,
+            "bottom": 59.546875
+          },
+          {
+            "selector": ".opening-kicker",
+            "left": 105.734375,
+            "right": 309.265625,
+            "top": 253.25,
+            "bottom": 276.34375
+          },
+          {
+            "selector": ".opening-title",
+            "left": 57.5,
+            "right": 357.5,
+            "top": 289.34375,
+            "bottom": 368.875
+          },
+          {
+            "selector": ".envelope-stage",
+            "left": 20.2393798828125,
+            "right": 394.7606201171875,
+            "top": 398.6531982421875,
+            "bottom": 610.0968017578125
+          },
+          {
+            "selector": ".opening-hint",
+            "left": 95,
+            "right": 320,
+            "top": 638.875,
+            "bottom": 683.65625
+          },
+          {
+            "selector": ".opening-meta",
+            "left": 77.015625,
+            "right": 337.984375,
+            "top": 707.65625,
+            "bottom": 730.75
+          },
+          {
+            "selector": "#close-opening",
+            "left": 340,
+            "right": 388,
+            "top": 24,
+            "bottom": 72
+          },
+          {
+            "selector": "#open-invitation",
+            "left": 154.47552490234375,
+            "right": 260.52447509765625,
+            "top": 451.35052490234375,
+            "bottom": 557.3994750976562
+          }
+        ],
+        "small": [],
+        "tiny": [],
+        "titleClear": true,
+        "envelopeClear": true
+      },
+      "path": "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/onboarding-430.jpg"
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 753,
+        "rects": [
+          {
+            "selector": ".opening-edition",
+            "left": 40,
+            "right": 198.296875,
+            "top": 43.5,
+            "bottom": 70.5
+          },
+          {
+            "selector": ".opening-kicker",
+            "left": 268.015625,
+            "right": 484.984375,
+            "top": 315.125,
+            "bottom": 338.21875
+          },
+          {
+            "selector": ".opening-title",
+            "left": 191.828125,
+            "right": 561.15625,
+            "top": 353.21875,
+            "bottom": 392.984375
+          },
+          {
+            "selector": ".envelope-stage",
+            "left": 114.750732421875,
+            "right": 638.249267578125,
+            "top": 426.4623718261719,
+            "bottom": 640.50634765625
+          },
+          {
+            "selector": ".opening-hint",
+            "left": 264,
+            "right": 489,
+            "top": 668.984375,
+            "bottom": 713.765625
+          },
+          {
+            "selector": ".opening-meta",
+            "left": 246.015625,
+            "right": 506.984375,
+            "top": 737.765625,
+            "bottom": 760.859375
+          },
+          {
+            "selector": "#close-opening",
+            "left": 665,
+            "right": 713,
+            "top": 33,
+            "bottom": 81
+          },
+          {
+            "selector": "#open-invitation",
+            "left": 323.47552490234375,
+            "right": 429.5245056152344,
+            "top": 480.45989990234375,
+            "bottom": 586.5088500976562
+          }
+        ],
+        "small": [],
+        "tiny": [],
+        "titleClear": true,
+        "envelopeClear": true
+      },
+      "path": "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/onboarding-768.jpg"
+    },
+    {
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "metrics": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1425,
+        "rects": [
+          {
+            "selector": ".opening-edition",
+            "left": 40,
+            "right": 198.296875,
+            "top": 43.5,
+            "bottom": 70.5
+          },
+          {
+            "selector": ".opening-kicker",
+            "left": 604.015625,
+            "right": 820.984375,
+            "top": 175.40625,
+            "bottom": 198.5
+          },
+          {
+            "selector": ".opening-title",
+            "left": 477.5,
+            "right": 947.5,
+            "top": 213.5,
+            "bottom": 327.71875
+          },
+          {
+            "selector": ".envelope-stage",
+            "left": 450.0439147949219,
+            "right": 974.9561462402344,
+            "top": 361.2029113769531,
+            "bottom": 656.234619140625
+          },
+          {
+            "selector": ".opening-hint",
+            "left": 600,
+            "right": 825,
+            "top": 684.71875,
+            "bottom": 729.5
+          },
+          {
+            "selector": ".opening-meta",
+            "left": 582.015625,
+            "right": 842.984375,
+            "top": 753.5,
+            "bottom": 776.59375
+          },
+          {
+            "selector": "#close-opening",
+            "left": 1337,
+            "right": 1385,
+            "top": 33,
+            "bottom": 81
+          },
+          {
+            "selector": "#open-invitation",
+            "left": 659.4755249023438,
+            "right": 765.5245361328125,
+            "top": 455.69427490234375,
+            "bottom": 561.7432250976562
+          }
+        ],
+        "small": [],
+        "tiny": [],
+        "titleClear": true,
+        "envelopeClear": true
+      },
+      "path": "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/onboarding-1440.jpg"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

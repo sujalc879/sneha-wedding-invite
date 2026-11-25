@@ -44,7 +44,7 @@ Reviewed every section at 390px and 1440px; section screenshots are in work/scre
 
 The reference is a visual direction, not a website with equivalent sections to reproduce pixel for pixel. Its personal text and artwork never enter public/.
 
-## Verification
+## Initial full-build verification
 
 - Static: **PASS**, 21 checks. All populated DETAILS.md cells match exactly in source and CHECKLIST.md; forbidden strings absent; fixed-offset dates and actual weekdays agree; URLs, SVG references, palette, file list and size budgets pass.
 - Browser: **PASS**, 19 check groups using installed Playwright 1.62.1 / cached headless Chromium. Layout checked at 360×800, 390×844, 430×932, 768×1024 and 1440×900: no horizontal overflow, no controls below 44px, no computed fonts below 14px, no hero-name/plane overlap.
@@ -56,7 +56,7 @@ The reference is a visual direction, not a website with equivalent sections to r
 - Performance: whole-page scroll at 4× CPU throttle completed without script errors. 143 sampled frames; median 11.5ms, 95th percentile 26.1ms. These are local Chromium observations, not a real Android benchmark.
 - Errors/resources: no console errors and no failed requests in the final headless run; the final in-app-browser preview also reported no console errors. Google Fonts loaded during this run; each has an explicit fallback stack.
 - Visual: all seven sections captured and reviewed on phone and desktop; the above refinements were applied and the browser suite rerun. Latest result JSON: work/STATIC_RESULTS.json and work/BROWSER_RESULTS.json.
-- Size: public/index.html and the entire public/ folder are **78,746 bytes**, below both budgets. No original, reference or scratch assets are deployed.
+- Size: The initial build was **78,746 bytes**, below both budgets. No original, reference or scratch assets are deployed.
 
 ## Checks deferred or skipped
 
@@ -72,3 +72,17 @@ The reference is a visual direction, not a website with equivalent sections to r
 - Supply real data in DETAILS.md and original photos in originals/ before an actual invitation is shared. work/scripts/prepare_photos.py provides orientation, metadata stripping and compression using Pillow in the bundled Python runtime, but every final crop and portrait still needs visual review.
 - Test opening, complete scroll, directions, calendar import and lightbox on a real phone. Then publish public/ only and supply the final Site URL for absolute Open Graph tags.
 - Local Git checkpoints preserve phases. No remote was added and nothing was pushed or uploaded.
+
+## Opening refinement — 25 November 2026
+
+- Scope: only the opening CSS, opening markup and reveal JavaScript were patched. The test compares the rest of index.html byte for byte against the previous committed build. DETAILS.md, wedding content, event order and every other feature are unchanged.
+- Design: the same sampled ivory/burgundy/gold palette now frames a layered paper envelope with a static soft shadow, embossed wax seal, fine botanical wreath, original architectural backdrop, serif introduction and date/venue sign-off.
+- Microinteractions: restrained pointer tilt uses one scheduled rAF update; paper sheen, seal radiance, a small seal rotation/press and close-icon rotation animate only transform and opacity. Mouse leave/blur clears tilt. No continuous attention animation was added.
+- Dismissal: a 48px Close opening button and Escape key skip to the hero through a 240ms fade. Both restore scrolling, remove inert and place focus on the hero. Close remains available during the normal 1.9-second reveal and cancels its pending timer. Tab and Shift+Tab cycle between the seal and close button.
+- Sound: the user's conditional sound suggestion was not needed for the refinement. The existing section 11 no-audio rule remains respected; no audio, autoplay, external sound file or inactive sound control was added.
+- Verification: **PASS**, 13 focused browser groups in work/ONBOARDING_RESULTS.json, plus all 21 static checks. The five required sizes pass complete-viewport visibility, 44px control size, 14px font size, scroll lock, keyboard focus, reveal/dismissal and hero plane clearance.
+- Additional checks: desktop hover/tilt reset, touch-context tap without mouse tilt, close during reveal, Escape, timer cancellation, reduced motion with zero running animations, and a short 360×640 screen all passed. No script errors or failed non-font requests.
+- Visual review: fresh opening screenshots at all five required widths, plus hover and mid-reveal frames, are saved as work/screenshots/onboarding-*.jpg. Phone and desktop opening views were reviewed. Prior section screenshots describe the unchanged remainder of the invitation.
+- Current deploy size: **89,510 bytes** in one public/index.html; no added deployed assets.
+- Checks not repeated: unchanged calendar/gallery/time-zone/whole-page CPU tests retain the initial full-build results. Lighthouse and real-phone checks remain deferred for the reasons recorded above.
+- Preview: `python3 -m http.server 8080 --directory public`; refresh the preview to replay the opening.

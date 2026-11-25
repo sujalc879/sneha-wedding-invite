@@ -28,3 +28,13 @@
 ## Deliberate interpretations
 
 The researched reference is one printed invitation, not a full website or video. Extra required sections inherit its paper, arch, burgundy, botanical and gold vocabulary. The opening timing and scroll transitions are original, not measured from a video. All art is hand-authored SVG and never traces or embeds reference art. Portrait likeness and photographic crop tests are deferred until the user supplies real photos. Delivery stays local in public/, per the project workflow; no remote or hosting registration.
+
+## Opening refinement — 25 November 2026
+
+- [x] Re-read AGENTS.md sections 4 and 11, DETAILS.md, the existing plan and STYLE_DNA.md. Limit the patch to the opening.
+- [x] Refine the envelope, wax seal, botanical frame and entrance using the established palette and typography.
+- [x] Add restrained hover/press/pointer interactions, a close button, Escape dismissal and a two-button focus trap.
+- [x] Verify opening at all five required sizes, mouse/touch/keyboard, early dismissal and reduced motion; rerun static checks.
+- [x] Update reports and deliver the revised local file.
+
+Sound is optional in the user request. Keep the opening silent under the existing no-audio hard rule; no audio file was supplied. The close button dismisses the opening into the existing hero.
