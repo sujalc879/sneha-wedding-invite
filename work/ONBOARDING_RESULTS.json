@@ -42,6 +42,10 @@
       "status": "PASS"
     },
     {
+      "name": "Explicit Open invitation action works by touch and shares the same accessible reveal",
+      "status": "PASS"
+    },
+    {
       "name": "Reduced motion bypasses onboarding, unlocks content immediately and leaves no running animations",
       "status": "PASS"
     },
@@ -76,36 +80,36 @@
             "selector": ".opening-kicker",
             "left": 70.734375,
             "right": 274.265625,
-            "top": 187.25,
-            "bottom": 210.34375
+            "top": 155.75,
+            "bottom": 178.84375
           },
           {
             "selector": ".opening-title",
             "left": 22.5,
             "right": 322.5,
-            "top": 223.34375,
-            "bottom": 302.875
+            "top": 191.84375,
+            "bottom": 271.375
           },
           {
             "selector": ".envelope-stage",
             "left": 20.234050750732422,
             "right": 324.7659721374512,
-            "top": 333.2640380859375,
-            "bottom": 543.4859619140625
+            "top": 301.7640380859375,
+            "bottom": 511.9859619140625
           },
           {
             "selector": ".opening-hint",
             "left": 60,
             "right": 285,
-            "top": 572.875,
-            "bottom": 617.65625
+            "top": 541.375,
+            "bottom": 586.15625
           },
           {
             "selector": ".opening-meta",
             "left": 42.015625,
             "right": 302.984375,
-            "top": 641.65625,
-            "bottom": 664.75
+            "top": 673.15625,
+            "bottom": 696.25
           },
           {
             "selector": "#close-opening",
@@ -118,8 +122,15 @@
             "selector": "#open-invitation",
             "left": 119.47551727294922,
             "right": 225.52447509765625,
-            "top": 385.35052490234375,
-            "bottom": 491.39947509765625
+            "top": 353.85052490234375,
+            "bottom": 459.89947509765625
+          },
+          {
+            "selector": "#open-invitation-cta",
+            "left": 82.796875,
+            "right": 262.203125,
+            "top": 601.15625,
+            "bottom": 649.15625
           }
         ],
         "small": [],
@@ -150,36 +161,36 @@
             "selector": ".opening-kicker",
             "left": 85.734375,
             "right": 289.265625,
-            "top": 209.25,
-            "bottom": 232.34375
+            "top": 177.75,
+            "bottom": 200.84375
           },
           {
             "selector": ".opening-title",
             "left": 37.5,
             "right": 337.5,
-            "top": 245.34375,
-            "bottom": 324.875
+            "top": 213.84375,
+            "bottom": 293.375
           },
           {
             "selector": ".envelope-stage",
             "left": 20.23633575439453,
             "right": 354.76367950439453,
-            "top": 355.00225830078125,
-            "bottom": 565.747802734375
+            "top": 323.50225830078125,
+            "bottom": 534.247802734375
           },
           {
             "selector": ".opening-hint",
             "left": 75,
             "right": 300,
-            "top": 594.875,
-            "bottom": 639.65625
+            "top": 563.375,
+            "bottom": 608.15625
           },
           {
             "selector": ".opening-meta",
             "left": 57.015625,
             "right": 317.984375,
-            "top": 663.65625,
-            "bottom": 686.75
+            "top": 695.15625,
+            "bottom": 718.25
           },
           {
             "selector": "#close-opening",
@@ -192,8 +203,15 @@
             "selector": "#open-invitation",
             "left": 134.47552490234375,
             "right": 240.52447509765625,
-            "top": 407.35052490234375,
-            "bottom": 513.3994750976562
+            "top": 375.85052490234375,
+            "bottom": 481.89947509765625
+          },
+          {
+            "selector": "#open-invitation-cta",
+            "left": 97.796875,
+            "right": 277.203125,
+            "top": 623.15625,
+            "bottom": 671.15625
           }
         ],
         "small": [],
@@ -224,36 +242,36 @@
             "selector": ".opening-kicker",
             "left": 105.734375,
             "right": 309.265625,
-            "top": 253.25,
-            "bottom": 276.34375
+            "top": 221.75,
+            "bottom": 244.84375
           },
           {
             "selector": ".opening-title",
             "left": 57.5,
             "right": 357.5,
-            "top": 289.34375,
-            "bottom": 368.875
+            "top": 257.84375,
+            "bottom": 337.375
           },
           {
             "selector": ".envelope-stage",
             "left": 20.2393798828125,
             "right": 394.7606201171875,
-            "top": 398.6531982421875,
-            "bottom": 610.0968017578125
+            "top": 367.1531982421875,
+            "bottom": 578.5968017578125
           },
           {
             "selector": ".opening-hint",
             "left": 95,
             "right": 320,
-            "top": 638.875,
-            "bottom": 683.65625
+            "top": 607.375,
+            "bottom": 652.15625
           },
           {
             "selector": ".opening-meta",
             "left": 77.015625,
             "right": 337.984375,
-            "top": 707.65625,
-            "bottom": 730.75
+            "top": 739.15625,
+            "bottom": 762.25
           },
           {
             "selector": "#close-opening",
@@ -266,8 +284,15 @@
             "selector": "#open-invitation",
             "left": 154.47552490234375,
             "right": 260.52447509765625,
-            "top": 451.35052490234375,
-            "bottom": 557.3994750976562
+            "top": 419.85052490234375,
+            "bottom": 525.8994750976562
+          },
+          {
+            "selector": "#open-invitation-cta",
+            "left": 117.796875,
+            "right": 297.203125,
+            "top": 667.15625,
+            "bottom": 715.15625
           }
         ],
         "small": [],
@@ -298,36 +323,36 @@
             "selector": ".opening-kicker",
             "left": 268.015625,
             "right": 484.984375,
-            "top": 315.125,
-            "bottom": 338.21875
+            "top": 283.625,
+            "bottom": 306.71875
           },
           {
             "selector": ".opening-title",
             "left": 191.828125,
             "right": 561.15625,
-            "top": 353.21875,
-            "bottom": 392.984375
+            "top": 321.71875,
+            "bottom": 361.484375
           },
           {
             "selector": ".envelope-stage",
             "left": 114.750732421875,
             "right": 638.249267578125,
-            "top": 426.4623718261719,
-            "bottom": 640.50634765625
+            "top": 394.9623718261719,
+            "bottom": 609.00634765625
           },
           {
             "selector": ".opening-hint",
             "left": 264,
             "right": 489,
-            "top": 668.984375,
-            "bottom": 713.765625
+            "top": 637.484375,
+            "bottom": 682.265625
           },
           {
             "selector": ".opening-meta",
             "left": 246.015625,
             "right": 506.984375,
-            "top": 737.765625,
-            "bottom": 760.859375
+            "top": 769.265625,
+            "bottom": 792.359375
           },
           {
             "selector": "#close-opening",
@@ -340,8 +365,15 @@
             "selector": "#open-invitation",
             "left": 323.47552490234375,
             "right": 429.5245056152344,
-            "top": 480.45989990234375,
-            "bottom": 586.5088500976562
+            "top": 448.95989990234375,
+            "bottom": 555.0088500976562
+          },
+          {
+            "selector": "#open-invitation-cta",
+            "left": 286.796875,
+            "right": 466.203125,
+            "top": 697.265625,
+            "bottom": 745.265625
           }
         ],
         "small": [],
@@ -372,36 +404,36 @@
             "selector": ".opening-kicker",
             "left": 604.015625,
             "right": 820.984375,
-            "top": 175.40625,
-            "bottom": 198.5
+            "top": 143.90625,
+            "bottom": 167
           },
           {
             "selector": ".opening-title",
             "left": 477.5,
             "right": 947.5,
-            "top": 213.5,
-            "bottom": 327.71875
+            "top": 182,
+            "bottom": 296.21875
           },
           {
             "selector": ".envelope-stage",
             "left": 450.0439147949219,
             "right": 974.9561462402344,
-            "top": 361.2029113769531,
-            "bottom": 656.234619140625
+            "top": 329.7029113769531,
+            "bottom": 624.734619140625
           },
           {
             "selector": ".opening-hint",
             "left": 600,
             "right": 825,
-            "top": 684.71875,
-            "bottom": 729.5
+            "top": 653.21875,
+            "bottom": 698
           },
           {
             "selector": ".opening-meta",
             "left": 582.015625,
             "right": 842.984375,
-            "top": 753.5,
-            "bottom": 776.59375
+            "top": 785,
+            "bottom": 808.09375
           },
           {
             "selector": "#close-opening",
@@ -414,8 +446,15 @@
             "selector": "#open-invitation",
             "left": 659.4755249023438,
             "right": 765.5245361328125,
-            "top": 455.69427490234375,
-            "bottom": 561.7432250976562
+            "top": 424.19427490234375,
+            "bottom": 530.2432250976562
+          },
+          {
+            "selector": "#open-invitation-cta",
+            "left": 622.796875,
+            "right": 802.203125,
+            "top": 713,
+            "bottom": 761
           }
         ],
         "small": [],

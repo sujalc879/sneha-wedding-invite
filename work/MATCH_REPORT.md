@@ -83,6 +83,17 @@ The reference is a visual direction, not a website with equivalent sections to r
 - Verification: **PASS**, 13 focused browser groups in work/ONBOARDING_RESULTS.json, plus all 21 static checks. The five required sizes pass complete-viewport visibility, 44px control size, 14px font size, scroll lock, keyboard focus, reveal/dismissal and hero plane clearance.
 - Additional checks: desktop hover/tilt reset, touch-context tap without mouse tilt, close during reveal, Escape, timer cancellation, reduced motion with zero running animations, and a short 360×640 screen all passed. No script errors or failed non-font requests.
 - Visual review: fresh opening screenshots at all five required widths, plus hover and mid-reveal frames, are saved as work/screenshots/onboarding-*.jpg. Phone and desktop opening views were reviewed. Prior section screenshots describe the unchanged remainder of the invitation.
-- Current deploy size: **89,510 bytes** in one public/index.html; no added deployed assets.
+- Size after the first opening refinement: **89,510 bytes** in one public/index.html; no added deployed assets.
 - Checks not repeated: unchanged calendar/gallery/time-zone/whole-page CPU tests retain the initial full-build results. Lighthouse and real-phone checks remain deferred for the reasons recorded above.
 - Preview: `python3 -m http.server 8080 --directory public`; refresh the preview to replay the opening.
+
+## Further opening polish — 25 November 2026
+
+- Limited the second pass to the same opening CSS, markup and reveal JavaScript. The automated comparison confirms all other HTML, wedding content and features remain byte-for-byte unchanged. The existing working-tree deletion of AGENTS.md is left untouched and will not be included in the change commit; its last committed rules and the chat instructions informed this pass.
+- Added a narrow satin gold ribbon which releases before the flap opens, hand-authored irregular wax-rim artwork, low-contrast embossed corner rosettes, and warm pointer-following light. All movement remains transform/opacity only. Eight tiny opening sparkles play once and fade out; no continuous attention animation was added.
+- Added a clear Open invitation action below the seal. It uses the same reveal handler, duplicate-click guard, scroll unlock and hero focus as the seal. Keyboard focus cycles through Close, the seal and the new action. Close and Escape remain available, including during the reveal.
+- Sound remains omitted because it was conditional and the supplied project instructions prohibit audio. No sound resource, silent toggle or autoplay was added.
+- Verification: **PASS**, 14 focused browser groups plus all 21 static checks. The five required viewport sizes and an additional 360×640 phone pass; desktop pointer feedback, touch for both opening controls, focus trapping, Close/Escape, cancellation and reduced motion all pass. No JavaScript errors or failed non-font requests.
+- Visual review: updated opening screenshots for all five sizes, hover, and mid-reveal are in work/screenshots/onboarding-*.jpg; phone and desktop views were reviewed. Unchanged sections retain the prior full-build results. Lighthouse and physical-device testing remain deferred as documented above.
+- Current deploy size: **94,984 bytes**, entirely in public/index.html. DETAILS.md and the originals remain untouched.
+- Preview with `python3 -m http.server 8080 --directory public`; refresh to replay the opening.

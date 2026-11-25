@@ -38,3 +38,11 @@ The researched reference is one printed invitation, not a full website or video.
 - [x] Update reports and deliver the revised local file.
 
 Sound is optional in the user request. Keep the opening silent under the existing no-audio hard rule; no audio file was supplied. The close button dismisses the opening into the existing hero.
+
+## Further opening polish — 25 November 2026
+
+- [x] Read the latest details, plan, design palette and prior project rules from Git because AGENTS.md has been removed in the working tree; preserve that user change.
+- [x] Add satin ribbon, original wax-rim artwork, embossed paper corners, pointer-following light and a finite sparkle entrance.
+- [x] Add an explicit Open invitation button sharing the seal's reveal, and update the focus trap for three controls.
+- [x] Verify the revised opening on all required screen sizes and a short phone; touch, keyboard, Close/Escape and reduced motion.
+- [x] Update reports and hand off the local file.

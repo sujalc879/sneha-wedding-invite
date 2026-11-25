@@ -64,7 +64,7 @@
     {
       "name": "Size budgets: HTML under 250KB and public under 2.5MB",
       "status": "PASS",
-      "detail": "89510 bytes total"
+      "detail": "94984 bytes total"
     },
     {
       "name": "All literal hex colours use the sampled palette",
@@ -107,7 +107,7 @@
       "detail": ""
     }
   ],
-  "totalPublicBytes": 89510,
+  "totalPublicBytes": 94984,
   "deferred": [
     "Real photo dimensions/EXIF and face crops: user-approved SVG demo has no photos."
   ]
