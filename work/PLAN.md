@@ -51,3 +51,11 @@ Sound is optional in the user request. Keep the opening silent under the existin
 
 - [x] Reapply sneha & sanghpal — 1 January 2027 across source, metadata, monograms and visible content; keep time pending and preserve opening design.
 - [x] Update data checklist and report; verify relevant states at five widths.
+
+## Screenshot details — 28 November 2026
+
+- [x] Read screenshot, current details and project rules; obtain wedding time, Sangeet date/venue and permission to remove unconfirmed demo details.
+- [x] Record exact names, address wording and time formats in DETAILS.md; retain the confirmed 1 January 2027 wedding date and log technical date/Maps derivations.
+- [x] Patch metadata, opening, names, venue, events, countdown, calendar and footer; apply screenshot names, then the later request for first names only.
+- [x] Verify exact data, three-event ICS, time zones, links, first-name display and existing opening controls.
+- [x] Update checklist/report and hand off.

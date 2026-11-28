@@ -1,0 +1,313 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Existing opening remains keyboard-focused, scroll-locked and usable after the data update",
+      "status": "PASS"
+    },
+    {
+      "name": "360x800: exact display names, wrapped text, 44px controls, 14px fonts, no overflow or name/plane overlap",
+      "status": "PASS"
+    },
+    {
+      "name": "390x844: exact display names, wrapped text, 44px controls, 14px fonts, no overflow or name/plane overlap",
+      "status": "PASS"
+    },
+    {
+      "name": "430x932: exact display names, wrapped text, 44px controls, 14px fonts, no overflow or name/plane overlap",
+      "status": "PASS"
+    },
+    {
+      "name": "768x1024: exact display names, wrapped text, 44px controls, 14px fonts, no overflow or name/plane overlap",
+      "status": "PASS"
+    },
+    {
+      "name": "1440x900: exact display names, wrapped text, 44px controls, 14px fonts, no overflow or name/plane overlap",
+      "status": "PASS"
+    },
+    {
+      "name": "Unconfirmed demo names/venues/events, bios, dress codes and personal lines are removed; calendar is enabled",
+      "status": "PASS"
+    },
+    {
+      "name": "Screenshot spellings, Haldi 31st Dec / 8.00pm., Sangeet 6.00 pm and wedding 1:35 pm display exactly in source order",
+      "status": "PASS"
+    },
+    {
+      "name": "Haldi and Sangeet use their exact address search; wedding/map card use the supplied wedding venue address",
+      "status": "PASS"
+    },
+    {
+      "name": "Title and Open Graph metadata use exact display names, confirmed date and real venue",
+      "status": "PASS"
+    },
+    {
+      "name": "Downloaded ICS has exactly three events, correct dates/UTC times/display names/locations, three-hour ends and standards-compliant folding",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing illustrated album still opens, advances and closes with restored scrolling",
+      "status": "PASS"
+    },
+    {
+      "name": "Opening still supports Enter and Space",
+      "status": "PASS"
+    },
+    {
+      "name": "New countdown target is correct in both time zones, ticks, pauses/resyncs, supports reduced motion and ends with Just Married",
+      "status": "PASS"
+    },
+    {
+      "name": "iOS in-app fallback includes the new three-event calendar",
+      "status": "PASS"
+    },
+    {
+      "name": "No script errors or failed non-font requests",
+      "status": "PASS"
+    }
+  ],
+  "sizes": [
+    {
+      "size": {
+        "width": 360,
+        "height": 800
+      },
+      "metrics": {
+        "width": 360,
+        "scrollWidth": 345,
+        "small": [],
+        "tiny": [],
+        "lines": [
+          {
+            "left": 120.578125,
+            "right": 224.421875,
+            "top": 291.09375,
+            "bottom": 354.09375
+          },
+          {
+            "left": 94.53125,
+            "right": 250.46875,
+            "top": 406.921875,
+            "bottom": 469.921875
+          }
+        ],
+        "overflow": [],
+        "overlap": false,
+        "plane": {
+          "left": 2.000018835067749,
+          "right": 46.000022649765015,
+          "width": 56
+        },
+        "pointerEvents": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 375,
+        "small": [],
+        "tiny": [],
+        "lines": [
+          {
+            "left": 135.578125,
+            "right": 239.421875,
+            "top": 291.09375,
+            "bottom": 354.09375
+          },
+          {
+            "left": 109.53125,
+            "right": 265.46875,
+            "top": 406.921875,
+            "bottom": 469.921875
+          }
+        ],
+        "overflow": [],
+        "overlap": false,
+        "plane": {
+          "left": 1.4419745206832886,
+          "right": 46.558067202568054,
+          "width": 56
+        },
+        "pointerEvents": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    },
+    {
+      "size": {
+        "width": 430,
+        "height": 932
+      },
+      "metrics": {
+        "width": 430,
+        "scrollWidth": 415,
+        "small": [],
+        "tiny": [],
+        "lines": [
+          {
+            "left": 155.578125,
+            "right": 259.421875,
+            "top": 291.09375,
+            "bottom": 354.09375
+          },
+          {
+            "left": 129.53125,
+            "right": 285.46875,
+            "top": 406.921875,
+            "bottom": 469.921875
+          }
+        ],
+        "overflow": [],
+        "overlap": false,
+        "plane": {
+          "left": 1.100015640258789,
+          "right": 46.90002632141113,
+          "width": 56
+        },
+        "pointerEvents": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    },
+    {
+      "size": {
+        "width": 768,
+        "height": 1024
+      },
+      "metrics": {
+        "width": 768,
+        "scrollWidth": 753,
+        "small": [],
+        "tiny": [],
+        "lines": [
+          {
+            "left": 318.984375,
+            "right": 434.015625,
+            "top": 283.09375,
+            "bottom": 353.09375
+          },
+          {
+            "left": 290.140625,
+            "right": 462.859375,
+            "top": 412.625,
+            "bottom": 482.625
+          }
+        ],
+        "overflow": [],
+        "overlap": false,
+        "plane": {
+          "left": 42.74407958984375,
+          "right": 95.4959716796875,
+          "width": 68
+        },
+        "pointerEvents": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    },
+    {
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "small": [],
+        "tiny": [],
+        "lines": [
+          {
+            "left": 604.671875,
+            "right": 820.328125,
+            "top": 278.09375,
+            "bottom": 409.09375
+          },
+          {
+            "left": 550.578125,
+            "right": 874.421875,
+            "top": 459.046875,
+            "bottom": 590.046875
+          }
+        ],
+        "overflow": [],
+        "overlap": false,
+        "plane": {
+          "left": 103.06305694580078,
+          "right": 156.13702392578125,
+          "width": 68
+        },
+        "pointerEvents": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "calendar": {
+    "events": 3,
+    "starts": [
+      "20261231T143000Z",
+      "20261231T123000Z",
+      "20270101T080500Z"
+    ],
+    "ends": [
+      "20261231T173000Z",
+      "20261231T153000Z",
+      "20270101T110500Z"
+    ],
+    "folded75Octets": true,
+    "crlf": true
+  },
+  "timezones": [
+    {
+      "timezoneId": "America/New_York",
+      "resynced": [
+        "00",
+        "23",
+        "59",
+        "54"
+      ]
+    },
+    {
+      "timezoneId": "Asia/Kolkata",
+      "resynced": [
+        "00",
+        "23",
+        "59",
+        "54"
+      ]
+    }
+  ]
+}

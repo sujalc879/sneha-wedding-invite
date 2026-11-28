@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wedding Invitation//Celebrations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20261231T143000Z-0@wedding-invitation.local
+DTSTAMP:20261128T143043Z
+DTSTART:20261231T143000Z
+DTEND:20261231T173000Z
+SUMMARY:Haldi · Sneha & Sanghpal
+LOCATION:near om caching classes\, new shivaji nagar\, parli vaijnath\,Beed
+  431515
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=near%20om%20cac
+ hing%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%204
+ 31515
+END:VEVENT
+BEGIN:VEVENT
+UID:20261231T123000Z-1@wedding-invitation.local
+DTSTAMP:20261128T143043Z
+DTSTART:20261231T123000Z
+DTEND:20261231T153000Z
+SUMMARY:Sangeet · Sneha & Sanghpal
+LOCATION:near om caching classes\, new shivaji nagar\, parli vaijnath\,Beed
+  431515
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=near%20om%20cac
+ hing%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%204
+ 31515
+END:VEVENT
+BEGIN:VEVENT
+UID:20270101T080500Z-2@wedding-invitation.local
+DTSTAMP:20261128T143043Z
+DTSTART:20270101T080500Z
+DTEND:20270101T110500Z
+SUMMARY:Wedding · Sneha & Sanghpal
+LOCATION:Tirupati mangal karyalay\, itke corner\,Tharmal rode \, Parli vaij
+ nath\,Beed 431515
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Tirupati%20mang
+ al%20karyalay%2C%20itke%20corner%2CTharmal%20rode%20%2C%20Parli%20vaijnath
+ %2CBeed%20431515
+END:VEVENT
+END:VCALENDAR

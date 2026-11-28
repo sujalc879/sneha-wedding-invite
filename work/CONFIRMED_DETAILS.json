@@ -1,0 +1,84 @@
+{
+  "values": {
+    "Bride": "Sneha",
+    "Groom": "Sanghpal",
+    "Name order": "Bride & Groom",
+    "Initials": "s&s",
+    "Blessing": "",
+    "Hero subtitle": "Wedding Invitation",
+    "Hero introduction": "",
+    "Main date": "1 January 2027",
+    "Main day": "Friday",
+    "Main time": "1:35 pm",
+    "Time zone offset": "+05:30",
+    "Venue": "Tirupati mangal karyalay",
+    "Address": "Tirupati mangal karyalay, itke corner,Tharmal rode , Parli vaijnath,Beed 431515",
+    "City": "",
+    "Maps link": "https://www.google.com/maps/search/?api=1&query=Tirupati%20mangal%20karyalay%2C%20itke%20corner%2CTharmal%20rode%20%2C%20Parli%20vaijnath%2CBeed%20431515",
+    "Dress code": "",
+    "Bride bio": "",
+    "Groom bio": "",
+    "Couple heading": "The couple",
+    "Footer message": "",
+    "Families line": "",
+    "RSVP number": "",
+    "Site URL": "",
+    "Bride outfit": "",
+    "Groom outfit": "",
+    "Demo label": "Invitation preview",
+    "Demo notice": "Illustrations shown in place of photos."
+  },
+  "functions": [
+    {
+      "name": "Haldi",
+      "date": "31st Dec",
+      "day": "",
+      "time": "8.00pm.",
+      "iso": "2026-12-31T20:00:00+05:30",
+      "venue": "near om caching classes, new shivaji nagar, parli vaijnath,Beed 431515",
+      "dressCode": "",
+      "maps": "https://www.google.com/maps/search/?api=1&query=near%20om%20caching%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%20431515",
+      "icon": "event-haldi"
+    },
+    {
+      "name": "Sangeet",
+      "date": "31 December 2026",
+      "day": "",
+      "time": "6.00 pm",
+      "iso": "2026-12-31T18:00:00+05:30",
+      "venue": "near om caching classes, new shivaji nagar, parli vaijnath,Beed 431515",
+      "dressCode": "",
+      "maps": "https://www.google.com/maps/search/?api=1&query=near%20om%20caching%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%20431515",
+      "icon": "event-sangeet"
+    },
+    {
+      "name": "Wedding",
+      "date": "1 January 2027",
+      "day": "Friday",
+      "time": "1:35 pm",
+      "iso": "2027-01-01T13:35:00+05:30",
+      "venue": "",
+      "dressCode": "",
+      "maps": "",
+      "icon": "event-wedding"
+    }
+  ],
+  "countdownTimestamp": "2027-01-01T13:35:00+05:30",
+  "source": "Screenshot 2026-11-28 at 7.40.55 PM.png and user clarification on 28 November 2026",
+  "flags": [
+    "Visible names use first names only by explicit user instruction; original full names are retained only in this non-deployed source archive.",
+    "1 January 2027 is the previously confirmed main date; 1:35 pm is the new user reply.",
+    "Haldi date displays 31st Dec; its internal year is 2026, consistent with the main date and the confirmed Sangeet date.",
+    "Sangeet date and Haldi venue were confirmed in the reply: 31 December 2026, at the Haldi address.",
+    "Events retain screenshot order: Haldi, Sangeet, then the existing Wedding entry. Sangeet is earlier in the day; no event order was silently changed.",
+    "Maps search URLs are derived from the exact provided address strings. They are not user-supplied place-pin links and have not been independently verified.",
+    "Initials s&s and fixed offset +05:30 are retained from the existing details; no initials were supplied in the screenshot.",
+    "Unconfirmed demo Mehndi, bios, dress codes, blessing, family lines and personal quotes were removed with user approval.",
+    "No real couple photos have been supplied. Previously approved original illustrations remain temporarily.",
+    "Calendar end times use the existing hidden start-plus-three-hours constant."
+  ],
+  "sourceNames": {
+    "Bride": "Sneha Parmeshwar Landge",
+    "Groom": "Sanghpal Ramdas sawale"
+  }
+}

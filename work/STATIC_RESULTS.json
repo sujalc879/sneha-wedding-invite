@@ -32,7 +32,7 @@
       "detail": "25"
     },
     {
-      "name": "External resources/links limited to Google Fonts and the exact sample Maps link",
+      "name": "External resources/links limited to Google Fonts and exact recorded Maps links",
       "status": "PASS",
       "detail": "[]"
     },
@@ -64,7 +64,7 @@
     {
       "name": "Size budgets: HTML under 250KB and public under 2.5MB",
       "status": "PASS",
-      "detail": "94984 bytes total"
+      "detail": "98891 bytes total"
     },
     {
       "name": "All literal hex colours use the sampled palette",
@@ -72,29 +72,44 @@
       "detail": "set()"
     },
     {
+      "name": "Main timestamp independently derived from exact displayed date/time",
+      "status": "PASS",
+      "detail": "2027-01-01T13:35:00+05:30"
+    },
+    {
+      "name": "CONFIG matches exact source fields",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Exactly the source functions, in source order",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
       "name": "Main weekday matches the stated day",
       "status": "PASS",
-      "detail": "Sunday"
+      "detail": "Friday"
     },
     {
-      "name": "Mehndi computed weekday matches Saturday",
+      "name": "Haldi internal date/time matches exact displayed values",
       "status": "PASS",
-      "detail": "Saturday"
+      "detail": ""
     },
     {
-      "name": "Sangeet computed weekday matches Saturday",
+      "name": "Sangeet internal date/time matches exact displayed values",
       "status": "PASS",
-      "detail": "Saturday"
+      "detail": ""
     },
     {
-      "name": "Haldi computed weekday matches Sunday",
+      "name": "Wedding internal date/time matches exact displayed values",
       "status": "PASS",
-      "detail": "Sunday"
+      "detail": ""
     },
     {
-      "name": "Wedding computed weekday matches Sunday",
+      "name": "Wedding computed weekday matches Friday",
       "status": "PASS",
-      "detail": "Sunday"
+      "detail": "Friday"
     },
     {
       "name": "Wedding function agrees with main date and time",
@@ -107,8 +122,15 @@
       "detail": ""
     }
   ],
-  "totalPublicBytes": 94984,
+  "totalPublicBytes": 98891,
+  "timestamp": "2027-01-01T13:35:00+05:30",
+  "computedWeekdays": [
+    "Thursday",
+    "Thursday",
+    "Friday"
+  ],
   "deferred": [
-    "Real photo dimensions/EXIF and face crops: user-approved SVG demo has no photos."
+    "Real photo dimensions/EXIF and face crops await supplied photos.",
+    "Maps search links are derived from exact addresses, not supplied place-pin URLs."
   ]
 }

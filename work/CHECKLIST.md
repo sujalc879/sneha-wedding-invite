@@ -1,73 +1,66 @@
 # Data checklist
 
-All data below belongs to a user-approved temporary fictional demo. Source: DETAILS.md.
+Source: DETAILS.md, supplied screenshot and user replies on 28 November 2026. Unconfirmed demo details were removed with approval.
 
 | Item | As typed in DETAILS.md | As used in index.html | Match | Flag |
 |---|---|---|---|---|
-| Bride | sneha | sneha | YES | Confirmed, lower case preserved. |
-| Groom | sanghpal | sanghpal | YES | Confirmed, lower case preserved. |
+| Bride | Sneha | Sneha | YES | Copied exactly from screenshot or confirmed user reply. |
+| Groom | Sanghpal | Sanghpal | YES | Copied exactly from screenshot or confirmed user reply. |
 | Name order | Bride & Groom | Bride & Groom | YES |  |
-| Initials | s&s | s&s | DERIVED | Derived from names. |
-| Blessing | Shree Ganeshaya Namah | Shree Ganeshaya Namah | YES |  |
+| Initials | s&s | s&s | YES | Retained existing derived initials; not supplied in screenshot. |
+| Blessing | EMPTY | — omitted — | YES |  |
 | Hero subtitle | Wedding Invitation | Wedding Invitation | YES |  |
-| Hero introduction | Together with our families | Together with our families | YES |  |
-| Main date | 1 January 2027 | 1 January 2027 | YES | Confirmed. |
-| Main day | Friday | Friday | YES | Computed with Python. |
-| Main time | EMPTY | Omitted | PENDING | Awaiting user. |
+| Hero introduction | EMPTY | — omitted — | YES |  |
+| Main date | 1 January 2027 | 1 January 2027 | YES | Copied exactly from screenshot or confirmed user reply. |
+| Main day | Friday | Friday | YES |  |
+| Main time | 1:35 pm | 1:35 pm | YES | Copied exactly from screenshot or confirmed user reply. |
 | Time zone offset | +05:30 | +05:30 | YES |  |
-| Venue | Rambagh Palace | Rambagh Palace | YES | Temporary fictional demo; replace before sharing. |
-| Address | Bhawani Singh Road, Jaipur, Rajasthan 302 005 | Bhawani Singh Road, Jaipur, Rajasthan 302 005 | YES |  |
-| City | Jaipur | Jaipur | YES |  |
-| Maps link | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | YES |  |
-| Dress code | Indian festive | Indian festive | YES |  |
-| Bride bio | A little sunshine, a lot of heart. | A little sunshine, a lot of heart. | YES |  |
-| Groom bio | A steady hand, a joyful soul. | A steady hand, a joyful soul. | YES |  |
-| Couple heading | Two hearts, one beginning. | Two hearts, one beginning. | YES |  |
-| Footer message | Your presence is our most beautiful gift. | Your presence is our most beautiful gift. | YES |  |
-| Families line | With love, our families | With love, our families | YES |  |
+| Venue | Tirupati mangal karyalay | Tirupati mangal karyalay | YES | Copied exactly from screenshot or confirmed user reply. |
+| Address | Tirupati mangal karyalay, itke corner,Tharmal rode , Parli vaijnath,Beed 431515 | Tirupati mangal karyalay, itke corner,Tharmal rode , Parli vaijnath,Beed 431515 | YES | Copied exactly from screenshot or confirmed user reply. |
+| City | EMPTY | — omitted — | YES |  |
+| Maps link | https://www.google.com/maps/search/?api=1&query=Tirupati%20mangal%20karyalay%2C%20itke%20corner%2CTharmal%20rode%20%2C%20Parli%20vaijnath%2CBeed%20431515 | https://www.google.com/maps/search/?api=1&query=Tirupati%20mangal%20karyalay%2C%20itke%20corner%2CTharmal%20rode%20%2C%20Parli%20vaijnath%2CBeed%20431515 | YES | Derived exact-address search URL; verify selected place. |
+| Dress code | EMPTY | — omitted — | YES |  |
+| Bride bio | EMPTY | — omitted — | YES |  |
+| Groom bio | EMPTY | — omitted — | YES |  |
+| Couple heading | The couple | The couple | YES |  |
+| Footer message | EMPTY | — omitted — | YES |  |
+| Families line | EMPTY | — omitted — | YES |  |
 | RSVP number | EMPTY | — omitted — | YES | Optional, blank: no WhatsApp button or invented contact. |
 | Site URL | EMPTY | — omitted — | YES | Unknown: og:url and og:image omitted. |
-| Bride outfit | Burgundy lehenga with gold details | Burgundy lehenga with gold details | YES | Fictional SVG portrait; real likeness awaits supplied photos. |
-| Groom outfit | Ivory sherwani with a gold stole | Ivory sherwani with a gold stole | YES | Fictional SVG portrait; real likeness awaits supplied photos. |
-| Demo label | Fictional invitation | Fictional invitation | YES |  |
-| Demo notice | Fictional wedding details. Original illustrations stand in for real photos. | Fictional wedding details. Original illustrations stand in for real photos. | YES |  |
-| Countdown timestamp | Wedding time pending | EMPTY | PENDING | Countdown awaits real time. |
+| Bride outfit | EMPTY | — omitted — | YES | Fictional SVG portrait; real likeness awaits supplied photos. |
+| Groom outfit | EMPTY | — omitted — | YES | Fictional SVG portrait; real likeness awaits supplied photos. |
+| Demo label | Invitation preview | Invitation preview | YES |  |
+| Demo notice | Illustrations shown in place of photos. | Illustrations shown in place of photos. | YES |  |
+| Countdown timestamp | 1 January 2027; 1:35 pm; +05:30 | 2027-01-01T13:35:00+05:30 | YES | Technical value only; display remains exact. |
 | RSVP wa.me href | EMPTY | — omitted — | YES | No personal telephone number fabricated. |
-| Main computed weekday | Friday | Friday | YES | Computed with Python. |
-| Function 1 Name | Mehndi | Mehndi | YES |  |
-| Function 1 Date | 13 February 2027 | 13 February 2027 | YES |  |
-| Function 1 Day | Saturday | Saturday | YES |  |
-| Function 1 Time | 4:00 PM | 4:00 PM | YES |  |
-| Function 1 Venue | EMPTY | Rambagh Palace | YES | Inherited main value. |
-| Function 1 Dress code | Festive greens | Festive greens | YES |  |
-| Function 1 Maps link | EMPTY | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | YES | Inherited main value. |
-| Function 1 computed weekday | Saturday | Saturday | YES | Computed with Python; never rewritten. |
+| Main computed weekday | Friday | Friday | YES | Computed with Python; never rewritten. |
+| Function 1 Name | Haldi | Haldi | YES |  |
+| Function 1 Date | 31st Dec | 31st Dec | YES |  |
+| Function 1 Day | EMPTY | — omitted — | YES |  |
+| Function 1 Time | 8.00pm. | 8.00pm. | YES |  |
+| Function 1 Venue | near om caching classes, new shivaji nagar, parli vaijnath,Beed 431515 | near om caching classes, new shivaji nagar, parli vaijnath,Beed 431515 | YES |  |
+| Function 1 Dress code | EMPTY | — omitted — | YES |  |
+| Function 1 Maps link | https://www.google.com/maps/search/?api=1&query=near%20om%20caching%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%20431515 | https://www.google.com/maps/search/?api=1&query=near%20om%20caching%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%20431515 | YES |  |
+| Function 1 computed weekday | Not supplied | Thursday | COMPUTED | Unprovided weekdays are not added to the page. |
 | Function 2 Name | Sangeet | Sangeet | YES |  |
-| Function 2 Date | 13 February 2027 | 13 February 2027 | YES |  |
-| Function 2 Day | Saturday | Saturday | YES |  |
-| Function 2 Time | 7:30 PM | 7:30 PM | YES |  |
-| Function 2 Venue | EMPTY | Rambagh Palace | YES | Inherited main value. |
-| Function 2 Dress code | Evening elegance | Evening elegance | YES |  |
-| Function 2 Maps link | EMPTY | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | YES | Inherited main value. |
-| Function 2 computed weekday | Saturday | Saturday | YES | Computed with Python; never rewritten. |
-| Function 3 Name | Haldi | Haldi | YES |  |
-| Function 3 Date | 14 February 2027 | 14 February 2027 | YES |  |
-| Function 3 Day | Sunday | Sunday | YES |  |
-| Function 3 Time | 10:00 AM | 10:00 AM | YES |  |
-| Function 3 Venue | EMPTY | Rambagh Palace | YES | Inherited main value. |
-| Function 3 Dress code | Shades of sunshine | Shades of sunshine | YES |  |
-| Function 3 Maps link | EMPTY | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | YES | Inherited main value. |
-| Function 3 computed weekday | Sunday | Sunday | YES | Computed with Python; never rewritten. |
-| Function 4 Name | Wedding | Wedding | YES |  |
-| Function 4 Date | 1 January 2027 | 1 January 2027 | YES | Confirmed wedding date. |
-| Function 4 Day | Friday | Friday | YES | Computed with Python. |
-| Function 4 Time | EMPTY | Omitted | PENDING | Awaiting user. |
-| Function 4 Venue | EMPTY | Rambagh Palace | YES | Inherited main value. |
-| Function 4 Dress code | EMPTY | Indian festive | YES | Inherited main value. |
-| Function 4 Maps link | EMPTY | https://www.google.com/maps/search/?api=1&query=Rambagh+Palace+Jaipur | YES | Inherited main value. |
-| Function 4 computed weekday | Friday | Friday | YES | Computed with Python. |
+| Function 2 Date | 31 December 2026 | 31 December 2026 | YES |  |
+| Function 2 Day | EMPTY | — omitted — | YES |  |
+| Function 2 Time | 6.00 pm | 6.00 pm | YES |  |
+| Function 2 Venue | near om caching classes, new shivaji nagar, parli vaijnath,Beed 431515 | near om caching classes, new shivaji nagar, parli vaijnath,Beed 431515 | YES |  |
+| Function 2 Dress code | EMPTY | — omitted — | YES |  |
+| Function 2 Maps link | https://www.google.com/maps/search/?api=1&query=near%20om%20caching%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%20431515 | https://www.google.com/maps/search/?api=1&query=near%20om%20caching%20classes%2C%20new%20shivaji%20nagar%2C%20parli%20vaijnath%2CBeed%20431515 | YES |  |
+| Function 2 computed weekday | Not supplied | Thursday | COMPUTED | Unprovided weekdays are not added to the page. |
+| Function 3 Name | Wedding | Wedding | YES |  |
+| Function 3 Date | 1 January 2027 | 1 January 2027 | YES |  |
+| Function 3 Day | Friday | Friday | YES |  |
+| Function 3 Time | 1:35 pm | 1:35 pm | YES |  |
+| Function 3 Venue | EMPTY | Tirupati mangal karyalay | YES | Inherited main value. |
+| Function 3 Dress code | EMPTY | — omitted — | YES |  |
+| Function 3 Maps link | EMPTY | https://www.google.com/maps/search/?api=1&query=Tirupati%20mangal%20karyalay%2C%20itke%20corner%2CTharmal%20rode%20%2C%20Parli%20vaijnath%2CBeed%20431515 | YES | Inherited main value. |
+| Function 3 computed weekday | Friday | Friday | COMPUTED | Unprovided weekdays are not added to the page. |
 | Calendar end-time rule | Start only supplied | Start + 3 hours | DERIVED | Hidden constant CONFIG.calendarDurationHours = 3; end times never displayed. |
-| Real photos | None supplied | Three original inline SVG scenes | APPROVED | User explicitly approved temporary illustrations. Photo EXIF, likeness and crop checks are deferred. |
+| Event order | Haldi; Sangeet; Wedding | Haldi; Sangeet; Wedding | YES | Source order retained although Sangeet starts earlier than Haldi. |
+| Haldi year | 31st Dec | 2026 internally; display unchanged | DERIVED | Year derived from the confirmed wedding and Sangeet dates. |
+| Maps URLs | Supplied addresses | Address-search links | DERIVED | Not supplied place-pin links; verify the selected places. |
+| Real photos | None supplied | Three original inline SVG scenes | APPROVED | Temporary illustrations previously approved. Photo EXIF, likeness and crop checks are deferred. |
 | OG photograph | None supplied | Omitted | APPROVED | No real photo or published URL yet. |
-
-Latest update: names and wedding date confirmed; all remaining data is temporary demo content. February demo events fall after the confirmed wedding and require replacement. Wedding time is empty; calendar export waits for the real time.
