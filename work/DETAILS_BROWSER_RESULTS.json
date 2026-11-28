@@ -135,8 +135,8 @@
         "overflow": [],
         "overlap": false,
         "plane": {
-          "left": 1.4419745206832886,
-          "right": 46.558067202568054,
+          "left": 1.4414767026901245,
+          "right": 46.558568835258484,
           "width": 56
         },
         "pointerEvents": [
@@ -176,8 +176,8 @@
         "overflow": [],
         "overlap": false,
         "plane": {
-          "left": 1.100015640258789,
-          "right": 46.90002632141113,
+          "left": 1.0967401266098022,
+          "right": 46.90330445766449,
           "width": 56
         },
         "pointerEvents": [
@@ -217,8 +217,8 @@
         "overflow": [],
         "overlap": false,
         "plane": {
-          "left": 42.74407958984375,
-          "right": 95.4959716796875,
+          "left": 42.74462127685547,
+          "right": 95.49542999267578,
           "width": 68
         },
         "pointerEvents": [
@@ -258,8 +258,8 @@
         "overflow": [],
         "overlap": false,
         "plane": {
-          "left": 103.06305694580078,
-          "right": 156.13702392578125,
+          "left": 103.15931701660156,
+          "right": 156.04075622558594,
           "width": 68
         },
         "pointerEvents": [

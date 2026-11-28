@@ -59,3 +59,12 @@ Sound is optional in the user request. Keep the opening silent under the existin
 - [x] Patch metadata, opening, names, venue, events, countdown, calendar and footer; apply screenshot names, then the later request for first names only.
 - [x] Verify exact data, three-event ICS, time zones, links, first-name display and existing opening controls.
 - [x] Update checklist/report and hand off.
+
+## Sequenced envelope reveal — 28 November 2026
+
+- [x] Re-read project rules, DETAILS.md, plan and design DNA; treat the explicit chime and 300ms reduced-motion request as the latest feature overrides. Wedding data stays unchanged.
+- [x] Add three falling wax fragments, a perspective flap and a rising card, followed by the site fade; total 1600ms.
+- [x] Add feature-detected 15ms vibration and an opt-in generated chime with a persistent corner mute toggle; no external sound asset.
+- [x] Implement a static reduced-motion opening with a 300ms activation fade and preserve Close/Escape/focus/scroll handling.
+- [x] Verify sequence timing, fragments, sound/vibration fallbacks, mute persistence, keyboard/touch and all required viewports; run static checks.
+- [x] Update reports and hand off.

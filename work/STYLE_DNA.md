@@ -8,11 +8,11 @@ Components: pointed/scalloped architectural arches, thin rules and corner orname
 Imagery: original vector botanical sprigs, lotus-like flowers, garden architecture and fictional portraits; pale framed gallery; artwork never copied or traced.
 Order: envelope → hero → couple → countdown → celebrations → venue → illustrated moments → closing/footer.
 Naming: short neutral section names with expressive serif titles; no repeated tracked all-caps eyebrow on every section.
-Opening: layered ivory envelope, embossed burgundy wax seal, botanical arch frame; satin ribbon, irregular wax rim, paper emboss, mouse tilt/light, finite sparkles and an explicit opening button; glow/ring 0–450ms, flap 300–1250ms, flare/fade to 1900ms; close/Escape bypass in 240ms; silent.
+Opening: layered ivory envelope, botanical arch, satin ribbon and burgundy wax; three wax fragments fall/rotate 0–620ms, 1000px-perspective flap opens 180–680ms, card rises 680–1140ms, site crossfades 1200–1600ms; close/Escape bypass 240ms; optional quiet synthesized chime, persistent corner mute, 15ms supported haptic.
 Motion: 650ms opacity/translate entrances with small stagger; background moves at 35% scroll; slow rose petals and soft sparkles; quiet button translation. Motion is inferred/original because the reference is static.
 Plane: accent gold, pale-paper fill, 60% opacity, 56px phone/68px desktop; first segment hugs left edge through the hero; monotonic cubic path below.
 Recreation limits: print texture and painted foliage become original SVG linework and CSS pattern; no reference artwork, logos or personal text; portraits and gallery are clearly fictional until real photos arrive.
-Reduced motion: envelope skipped, everything visible, decorative motion off, plane positional update without easing.
+Reduced motion: static envelope until activation, then only a 300ms crossfade; no split, flap, card, tilt or decorative motion; everything visible, plane positional update without easing. This explicit user request supersedes the earlier skip behavior.
 FORBIDDEN STRINGS
 AADHYA
 PRATHAM

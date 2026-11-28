@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Wedding data, event order, links and gallery configuration unchanged; DETAILS.md untouched",
+      "status": "PASS"
+    },
+    {
+      "name": "360x800: three wax pieces, unique SVG IDs, 3D flap then card, ~1600ms reveal, 15ms haptic, 44px controls, focus/scroll and persistent toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "390x844: three wax pieces, unique SVG IDs, 3D flap then card, ~1600ms reveal, 15ms haptic, 44px controls, focus/scroll and persistent toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "430x932: three wax pieces, unique SVG IDs, 3D flap then card, ~1600ms reveal, 15ms haptic, 44px controls, focus/scroll and persistent toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "768x1024: three wax pieces, unique SVG IDs, 3D flap then card, ~1600ms reveal, 15ms haptic, 44px controls, focus/scroll and persistent toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "1440x900: three wax pieces, unique SVG IDs, 3D flap then card, ~1600ms reveal, 15ms haptic, 44px controls, focus/scroll and persistent toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "Phone and desktop phase screenshots at 260/600/1000/1400ms; rising card stays in view",
+      "status": "PASS"
+    },
+    {
+      "name": "Chime opt-in, silent before seal activation, three quiet sine tones; muting works during sequence",
+      "status": "PASS"
+    },
+    {
+      "name": "Toggle persists after opening, supports post-opening preview, remembers preference without autoplay, suspends audio after decay",
+      "status": "PASS"
+    },
+    {
+      "name": "Close mid-animation and Escape cancel timers, clear fragments, silence audio and release focus/scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "Reduced motion: static envelope, exactly 300ms fade, no fragments, 3D motion or running effects",
+      "status": "PASS"
+    },
+    {
+      "name": "Unsupported audio/haptic and blocked storage degrade safely; compact 360x640 intro usable",
+      "status": "PASS"
+    },
+    {
+      "name": "Touch seal/CTA and switching to reduced motion mid-sequence finish without residual fragments",
+      "status": "PASS"
+    },
+    {
+      "name": "No JavaScript errors or failed non-font requests",
+      "status": "PASS"
+    }
+  ],
+  "screens": [
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-sealed-390.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-sealed-1440.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-260ms-390.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-600ms-390.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-1000ms-390.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-1400ms-390.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-260ms-1440.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-600ms-1440.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-1000ms-1440.jpg",
+    "/Users/sujalsunilchaudhary/coding/projects/sneha/work/screenshots/intro-1400ms-1440.jpg"
+  ],
+  "errors": [],
+  "failedRequests": []
+}
